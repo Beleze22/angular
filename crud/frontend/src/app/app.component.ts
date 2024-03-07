@@ -6,7 +6,7 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   template: `
-    <h1>Welcome to {{title}}!</h1>
+    <h1>Bem vindo ao {{title}}!</h1>
 
     <router-outlet />
   `,
@@ -15,3 +15,4 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'frontend';
 }
+CD ..
