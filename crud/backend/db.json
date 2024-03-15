@@ -15,5 +15,17 @@
       "name": "Samsung S20",
       "price": 5000
     }
+   ],
+   "users": [
+    {
+      "user_id": 1,
+      "name": "Gustavo Beleze",
+      "age": 29
+    },
+    {
+      "user_id": 2,
+      "name": "Claudia Maria Benis Carvalho Beleze",
+      "age": 29
+    }
   ]
 }

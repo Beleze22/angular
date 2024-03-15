@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 import { MatToolbarModule } from '@angular/material/toolbar'; //Módulo importado para utilizar os templates disponíveis no Material
-import { MatSidenav } from '@angular/material/sidenav'
-import { MatList } from '@angular/material/list'
+import { MatSidenavModule } from '@angular/material/sidenav'
+import { MatListModule } from '@angular/material/list'
 
 import { HeaderComponent } from './components/template/header/header.component'; //Importando o módulo/componente gerado (ng g c)
 import { FooterComponent } from './components/template/footer/footer.component' 
@@ -25,8 +25,8 @@ import { NavComponent } from './components/template/nav/nav.component';
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
-    MatSidenav,
-    MatList
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [
     provideClientHydration(),
